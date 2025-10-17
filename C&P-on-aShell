@@ -68,7 +68,7 @@ dumpsys deviceidle enable;
 dumpsys deviceidle force-idle;
 settings put global battery_saver_constants advertise_is_enabled=true,enable_night_mode=true,fullbackup_deferred=true,keyvaluebackup_deferred=true,location_mode=0,adjust_brightness_factor=0.5,force_all_apps_standby=true,force_background_check=true,quick_doze_enabled=true;
 settings put system quick_doze_enabled true;
-settings put global device_idle_constants inactive_to=600000,sensing_to=120000,locating_to=30000,motion_inactive_to=300000,idle_after_inactive_to=600000,idle_pending_to=120000,max_idle_pending_to=300000,idle_pending_factor=2.0,idle_to=7200000,max_idle_to=43200000,idle_factor=2.0,min_time_to_alarm=7200000,max_temp_app_whitelist_duration=20000,mms_temp_app_whitelist_duration=10000,sms_temp_app_whitelist_duration=10000;
+settings put global device_idle_constants inactive_to=600000,sensing_to=120000,locating_to=30000,motion_inactive_to=300000,idle_after_inactive_to=600000,idle_pending_to=120000,max_idle_pending_to=300000,idle_pending_factor=2.0,idle_to=7200000,max_idle_to=43200000,idle_factor=2.0,min_time_to_alarm=7200000,max_temp_app_whitelist_duration=20000,mms_temp_app_whitelist_duration=10000,sms_temp_app_whitelist_duration=10000,flex_time_short=30000,light_after_inactive_to=180000,light_idle_to=240000,light_max_idle_to=900000,light_idle_maintenance_min_budget=30000,light_idle_maintenance_max_budget=180000,quick_doze_delay_to=30000,notification_allowlist_duration_ms=15000,wait_for_unlock=true;
 settings put system master_motion 0;
 settings put system motion_engine 0;
 settings put system air_motion_engine 0;
