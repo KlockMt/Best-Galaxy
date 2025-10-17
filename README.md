@@ -9,4 +9,6 @@ For PC: Connect your device, then copy and paste the commands from the /C&P-on-P
 
 For Mobile: To do the same thing using only your phone, copy and paste the commands from the /C&P-on-aShell/ file into a terminal app (like aShell).
 
-contribution of https://github.com/ionuttbara/melody_android
+Contribution of https://github.com/ionuttbara/melody_android
+
+Omakase style.
