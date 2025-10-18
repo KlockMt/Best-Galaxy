@@ -20,7 +20,7 @@ settings put system send_security_reports 0;
 settings put system rakuten_denwa 0;
 settings put global hotword_detection_enabled 0;
 
-echo "optimizing apperence"
+echo "optimizing apperence";
 
 settings put global window_animation_scale 0.5;
 settings put global transition_animation_scale 0.5;
@@ -53,7 +53,7 @@ settings put secure screensaver_enabled 0;
 settings put secure screensaver_activate_on_sleep 0;
 settings put secure screensaver_activate_on_dock 0;
 
-echo "boosting network"
+echo "boosting network";
 
 settings put global network_recommendations_enabled 0;
 settings put global network_scoring_ui_enabled 0;
