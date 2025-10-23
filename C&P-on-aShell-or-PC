@@ -7,7 +7,6 @@ settings put global google_core_control 0;
 settings put global background_process_limit 1;
 settings put global app_standby_enabled 1;
 settings put system gearhead:driving_mode_settings_enabled 0;
-settings put secure assistant 0;
 settings put secure smartspace 0;
 settings put secure adaptive_connectivity_enabled 0;
 settings put secure systemui.google.opa_enabled 0;
@@ -33,7 +32,7 @@ echo "limiting the temperature of the device";
 
 settings put global restricted_device_performance 1,1;
 settings put global sem_low_heat_mode 1;
-settings put system power_mode 0;
+settings put system power_mode low;
 settings put global low_heat_mode 1;
 settings put system min_refresh_rate 1.0;
 settings put global sem_enhanced_cpu_responsiveness 0;
